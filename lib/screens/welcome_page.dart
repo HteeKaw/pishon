@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pishon/components/psm_button.dart';
+import 'package:pishon/components/p_button.dart';
 import 'package:pishon/screens/login_page.dart';
 import 'package:pishon/screens/register_page.dart';
 
@@ -49,7 +49,7 @@ class WelcomePage extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        PSMButton(
+                        PButton(
                           text: 'Register',
                           onPressed: () {
                             showModalBottomSheet(
@@ -76,7 +76,7 @@ class WelcomePage extends StatelessWidget {
                             );
                           },
                         ),
-                        PSMButton(
+                        PButton(
                           text: 'Log In',
                           onPressed: () {
                             showModalBottomSheet(

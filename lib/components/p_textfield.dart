@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PSMTextField extends StatelessWidget {
-  const PSMTextField({
+class PTextField extends StatelessWidget {
+  const PTextField({
     Key? key,
     required this.controller,
     this.hintText,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pishon/components/psm_button.dart';
-import 'package:pishon/components/psm_textfield.dart';
+import 'package:pishon/components/p_button.dart';
+import 'package:pishon/components/p_textfield.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -37,14 +37,14 @@ class _LoginPageState extends State<LoginPage> {
           const SizedBox(
             height: 40,
           ),
-          PSMTextField(
+          PTextField(
             textInputType: TextInputType.emailAddress,
             prefixIcon: Icons.mail,
             controller: _mailController,
             hintText: 'E-mail',
           ),
           const SizedBox(height: 10),
-          PSMTextField(
+          PTextField(
             textInputType: TextInputType.text,
             obscureText: invisible,
             prefixIcon: Icons.lock,
@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
             },
           ),
           const SizedBox(height: 10),
-          PSMButton(
+          PButton(
               text: 'Log In',
               color: Colors.white,
               textColor: Colors.black,

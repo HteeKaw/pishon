@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class PSMButton extends StatelessWidget {
-  const PSMButton(
+class PButton extends StatelessWidget {
+  const PButton(
       {Key? key,
       required this.text,
       required this.onPressed,

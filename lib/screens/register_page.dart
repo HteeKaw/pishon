@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pishon/components/psm_button.dart';
-import 'package:pishon/components/psm_textfield.dart';
+import 'package:pishon/components/p_button.dart';
+import 'package:pishon/components/p_textfield.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({Key? key}) : super(key: key);
@@ -69,19 +69,19 @@ class _RegisterPageState extends State<RegisterPage> {
           const SizedBox(
             height: 40,
           ),
-          PSMTextField(
+          PTextField(
             prefixIcon: Icons.account_circle,
             controller: _userName,
             hintText: 'Name',
             errorText: _userNameErrorText,
           ),
-          PSMTextField(
+          PTextField(
             prefixIcon: Icons.mail,
             controller: _emailController,
             hintText: 'E-mail',
             errorText: _emailErrorText,
           ),
-          PSMTextField(
+          PTextField(
             prefixIcon: Icons.lock_outline,
             errorText: _passwordErrorText,
             controller: _passwordController,
@@ -95,7 +95,7 @@ class _RegisterPageState extends State<RegisterPage> {
               });
             },
           ),
-          PSMTextField(
+          PTextField(
             prefixIcon: Icons.lock_outline,
             errorText: _confirmPasswordErrorText,
             controller: _confirmPasswordController,
@@ -110,7 +110,7 @@ class _RegisterPageState extends State<RegisterPage> {
               });
             },
           ),
-          PSMButton(
+          PButton(
             text: 'Register',
             color: Colors.white,
             textColor: Colors.black,

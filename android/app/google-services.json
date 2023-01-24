@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "374434560804",
+    "project_id": "p-shop-259b5",
+    "storage_bucket": "p-shop-259b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374434560804:android:39dbab3ab5961fed7551b1",
+        "android_client_info": {
+          "package_name": "com.example.pishon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374434560804-a2jlo0uius3rsg5u2qoc5t58u4js5q7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcK84YrurI5CgGFWmtlnU7SfgF0EqEj2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374434560804-a2jlo0uius3rsg5u2qoc5t58u4js5q7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

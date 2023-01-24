@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pishon">
+    package="com.hteekaw.pishon">
    <application
         android:label="pishon"
         android:name="${applicationName}"
