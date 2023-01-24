@@ -6,6 +6,7 @@ import 'package:pishon/screens/home_page.dart';
 import 'package:pishon/screens/welcome_page.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
